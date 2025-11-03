@@ -1,6 +1,6 @@
 package com.engineeringdigest.corejava;
 
-public class World extends Thread{
+public class World implements Runnable{
 	@Override
 	public void run() {
 		for(int i=0; i<=10; i++) {
