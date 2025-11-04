@@ -14,7 +14,7 @@ public class Counter {
 //	}
 	
 	public void increment() {
-		synchronized (this) {  //this means current object (counter)
+		synchronized (this) {  //this means current object (counter). Synchronization is intrinsic lock.
 			count++;  //critical section
 			//System.out.println(Thread.currentThread().getName()+" "+getClass().getName());
 		}
