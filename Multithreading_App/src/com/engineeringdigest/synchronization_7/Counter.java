@@ -1,4 +1,4 @@
-package com.engineeringdigest.synchronization;
+package com.engineeringdigest.synchronization_7;
 
 public class Counter {
 
@@ -13,6 +13,8 @@ public class Counter {
 //		this.name=name;
 //	}
 	
+	
+	//synchronization : intrinsic lock (also called the monitor lock)
 	public void increment() {
 		synchronized (this) {  //this means current object (counter). Synchronization is intrinsic lock.
 			count++;  //critical section

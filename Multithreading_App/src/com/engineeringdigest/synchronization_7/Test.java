@@ -1,4 +1,4 @@
-package com.engineeringdigest.synchronization;
+package com.engineeringdigest.synchronization_7;
 
 public class Test {
 
