@@ -1,4 +1,4 @@
-package com.engineeringdigest.threadstate;
+package com.engineeringdigest.threadstate_2;
 
 public class MyThread extends Thread{
 	

@@ -1,4 +1,4 @@
-package com.engineeringdigest.corejava;
+package com.engineeringdigest.threadstate_2;
 
 public class World implements Runnable{
 	@Override

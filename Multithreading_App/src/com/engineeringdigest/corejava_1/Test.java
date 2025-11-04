@@ -1,4 +1,4 @@
-package com.engineeringdigest.corejava;
+package com.engineeringdigest.corejava_1;
 
 public class Test {
 	public static void main(String[] args) {
